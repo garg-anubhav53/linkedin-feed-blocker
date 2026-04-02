@@ -1,0 +1,13 @@
+/* Feed scroll container (homepage) */
+.scaffold-finite-scroll__content,
+.scaffold-finite-scroll,
+[data-finite-scroll-hotkey-context] { display: none !important; }
+
+/* Individual feed posts (fallback) */
+.feed-shared-update-v2,
+.occludable-update { display: none !important; }
+
+/* "Add to feed" and discovery modules */
+.feed-follows-module,
+.feed-shared-navigation-module,
+.feed-shared-navigation-module--v2 { display: none !important; }
